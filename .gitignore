@@ -164,4 +164,4 @@ config.toml
 .config.toml
 
 # VSC code workspaces
-*.code-workspaces
+*.code-workspace
