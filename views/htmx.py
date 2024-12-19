@@ -1,6 +1,7 @@
-"""MystBin. Share code easily.
+"""PearceBin (from Mystbin). Share code easily.
 
 Copyright (C) 2020-Current PythonistaGuild
+Forked and Minor changes made by Aiden Pearce
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -245,7 +246,7 @@ class HTMXView(starlette_plus.View, prefix="htmx"):
             )
 
         to_return: dict[str, Any] = paste.serialize(exclude=["safety", "password", "password_ok"])
-        text: str = "\n\n\n\n".join([f"# MystBin ! - {f['filename']}\n{f['content']}" for f in to_return["files"]])
+        text: str = "\n\n\n\n".join([f"# PearceBin ! - {f['filename']}\n{f['content']}" for f in to_return["files"]])
 
         return starlette_plus.PlainTextResponse(text, headers=headers)
 

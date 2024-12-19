@@ -1,12 +1,13 @@
-# MystBin
+# PearceBin (from Mystbin)
 
 Easily share code and text.
 
-[Website](https://mystb.in)
+This is a fork of Mystbin with some changes to the frontend and backend made by Aiden Pearce.
+If you are looking for the original/true MystBin, you can find it [here](https://github.com/PythonistaGuild/MystBin).
 
-[API Documentation](https://mystb.in/api/documentation)
+[Website](https://bin.aidenpearce.space)
 
-[Install on VSCode](https://marketplace.visualstudio.com/items?itemName=PythonistaGuild.mystbin)
+[API Documentation](https://bin.aidenpearce.space/api/documentation)
 
 
 ### Running without Docker

@@ -1,6 +1,7 @@
-"""MystBin. Share code easily.
+"""PearceBin (from Mystbin). Share code easily.
 
 Copyright (C) 2020-Current PythonistaGuild
+Forked and Minor changes made by Aiden Pearce
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -102,11 +103,11 @@ class Application(starlette_plus.Application):
             {
                 "openapi": "3.1.0",
                 "info": {
-                    "title": "MystBin API",
+                    "title": "PearceBin API",
                     "version": "4.0",
                     "summary": "API Documentation",
-                    "description": "MystBin - Easily share code and text.",
+                    "description": "PearceBin (from MystBin) - Easily share code and text.",
                 },
             }
         )
-        logger.info("MystBin application has successfully started!")
+        logger.info("PearceBin application has successfully started!")

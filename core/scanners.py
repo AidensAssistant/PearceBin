@@ -1,6 +1,7 @@
-"""MystBin. Share code easily.
+"""PearceBin (from Mystbin). Share code easily.
 
 Copyright (C) 2020-Current PythonistaGuild
+Forked and Minor changes made by Aiden Pearce
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
