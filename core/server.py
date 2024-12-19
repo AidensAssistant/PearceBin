@@ -62,7 +62,7 @@ class Application(starlette_plus.Application):
         middleware = [
             Middleware(
                 starlette_plus.middleware.RatelimitMiddleware,
-                ignore_localhost=True,
+                ignore_localhost=CONFIG.get('ignore_localhost', False),
                 redis=limit_redis,
                 global_limits=global_limits,
             ),
