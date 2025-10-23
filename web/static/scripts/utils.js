@@ -12,5 +12,6 @@ function getLangByName(name) {
     }
 
     let lname = lang.name.replace(/\s+/g, '').toLowerCase();
-    return lname;
+    let lastN = lname.split(",")[0];
+    return lastN;
 }
