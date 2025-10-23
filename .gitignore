@@ -165,3 +165,6 @@ config.toml
 
 # VSC code workspaces
 *.code-workspace
+
+# Mac garbage
+.DS_Store
